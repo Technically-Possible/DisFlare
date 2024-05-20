@@ -1,0 +1,9 @@
+
+For Windows, you can use the nssm (Non-Sucking Service Manager) to run the bot as a service.
+
+Install NSSM
+Download and install NSSM from NSSM's website.
+
+Create the Service
+Open a command prompt with administrator privileges and run the following command:
+nssm install DiscordDMBot "C:\path\to\python.exe" "C:\path\to\your\bot.py"

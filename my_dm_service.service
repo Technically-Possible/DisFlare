@@ -1,0 +1,18 @@
+[Unit]
+Description=Discord DM Captcha Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/your/bot.py
+Restart=always
+User=yourusername
+WorkingDirectory=/path/to/your/
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+[sudo systemctl daemon-reload
+sudo systemctl enable discord_dm_bot.service
+sudo systemctl start discord_dm_bot.service
+]

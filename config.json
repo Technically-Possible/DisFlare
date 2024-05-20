@@ -1,0 +1,14 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "min_account_age": 30,
+  "block_default_profile_pics": true,
+  "captcha_retry_limit": 3,
+  "service_name": "discord_dm_bot",
+  "whitelist": ["WHITELISTED_USER_ID"],
+  "captcha_colors": {
+    "background": "#36393E",
+    "text": "#FFFFFF",
+    "noise": "#FFFFFF",
+    "line": "#FFFFFF"
+  }
+}
